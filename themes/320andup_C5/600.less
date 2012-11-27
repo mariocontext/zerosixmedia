@@ -19,6 +19,7 @@
 
 
 		#header-nav {
+			.vertical();
 			float: left;
 			width:100%;
 			overflow: hidden;
@@ -38,7 +39,7 @@
 					margin:0;
 					padding: 0;
 					position: relative;
-					/* left: 50%; */
+					left: 50%;
 					text-align:center;
 
 				}
@@ -50,28 +51,19 @@
 					margin:0;
 					padding: 0;
 					position: relative;
-					/* right: 50%; */
+					right: 50%;
 
 				}
 
 				ul li a {
 					display: block;
-					margin: 0 0 1px 1px; // IE fix
 					margin: 0 0 .1rem .1rem;
-					padding: 32px; // IE fix
 					padding: 2rem;
 					text-decoration: none;
-					line-height: 32px;
 					line-height: 2rem;
-					.font-size(18);
+					font-size:1.8rem;
 					border: none;
 				}
-
-		}
-
-		.return-to-top, .go-to-sitemap {
-
-			display: none;
 
 		}
 

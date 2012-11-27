@@ -11,8 +11,8 @@
 
 // 1. ROOT 					==============================
 
-@bodycolor : rgb(72,72,72);
-@textcolor : white;
+@bodycolor : @white;
+@textcolor : black;
 
 // 2. TYPOGRAPHY 			==============================
 
@@ -21,7 +21,7 @@
 @baselineheight : 1.5em;
 @baseheadingfont : inherit;
 @baseheadingfontweight : bold;
-@baseheadingfontcolor : rgb(137,195,67);
+@baseheadingfontcolor : inherit;
 
 @altfont : Cambria, Georgia, Times, "Times New Roman";
 @altlineheight : 1.35em;
@@ -30,14 +30,13 @@
 
 // 3. COLOUR 				==============================
 
-//@basecolor 		: rgb(45,53,62);	
-@basecolor 		: @bodycolor;  
+@basecolor 		: rgb(45,53,62);	  
 @compcolor 		: spin(@basecolor, 180); 
 @bordercolor    : lighten(@basecolor, 60%);
 
 // Links
 
-@linkcolor 		    : rgb(137,195,67);
+@linkcolor 		    : rgb(1,53,104);
 @linkcolorhover 	: darken(@linkcolor, 10);
 @linkcolorvisited   : darken(@linkcolorhover, 10);
 @linkcolorfocus 	: darken(@linkcolorvisited, 10);
@@ -128,11 +127,11 @@
 
 // forms 
 
-@inputbackground 	: @darkgrey; 
-@inputborder 		: darken(@basecolor, 40%);
+@inputbackground 	: @white; 
+@inputborder 		: lighten(@basecolor, 40%);
 @inputborderwidth	: 1px;
 @inputborderstyle	: solid;
-@inputhover 		: darken(@basecolor, 20%);
+@inputhover 		: lighten(@basecolor, 20%);
 @inputfocus 		: @basecolor, 40%;
 @placeholdercolor 	: @lightgrey;
 
