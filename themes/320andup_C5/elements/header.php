@@ -102,6 +102,7 @@ if (is_object($cp) && ($cp->canWrite() || $cp->canAddSubContent() || $cp->canAdm
 
 <div id="main-container">
 
+	<div id="main-header">
 	<header role="banner" class="clearfix">
 
 		<span id="logo-area">
@@ -142,6 +143,7 @@ if (is_object($cp) && ($cp->canWrite() || $cp->canAddSubContent() || $cp->canAdm
 		</div><!-- / header-image -->
 		
 	</header><!-- main header area -->
+	</div><!-- /main-header -->
 	
 
 	<!-- comment out to remove breadcrumbs -->
