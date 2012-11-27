@@ -1,0 +1,22 @@
+<?php 
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'vod_db');
+define('DB_PASSWORD', 'h3Rb4L1f3');
+define('DB_DATABASE', 'liveitnowent');
+define('BASE_URL', 'http://liveitnowent.hurroo.com');
+define('DIR_REL', '');
+define('PASSWORD_SALT', 'fbCMxBJ78BwoOtDILbDb8m39EBZ2nS4Ex6r37BUh1F1vSrHQENGGHkf23KffG5Bu');
+
+
+define('ENABLE_EMAILS', true);
+define('ENABLE_LOG_EMAILS', true);
+
+define('REDIRECT_TO_BASE_URL', true);
+define('ENABLE_MARKETPLACE_SUPPORT', false);
+define('ENABLE_INTELLIGENT_SEARCH_HELP', false);
+define('ENABLE_INTELLIGENT_SEARCH_MARKETPLACE', false);
+define('ENABLE_NEWSFLOW_OVERLAY', false);
+define('WHITE_LABEL_APP_NAME', 'Live it now entertainment');
+define('ENABLE_APP_NEWS', false);
+define('ENABLE_DEVELOPER_OPTIONS', false);
+
