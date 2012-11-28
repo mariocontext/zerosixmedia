@@ -1,6 +1,6 @@
 
 
-var myDeviceWidth = $().width();
+var myDeviceWidth = $(window).width();
 
 if (myDeviceWidth <= 600) {
 
@@ -20,6 +20,8 @@ $('.nav-toggler').toggle(function() {
 
 	}
 );
+
+
 
 } else {
 

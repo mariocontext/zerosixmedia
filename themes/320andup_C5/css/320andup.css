@@ -1926,7 +1926,7 @@ table thead:first-child tr:first-child td {
   }
 }
 /* basic tweaks and c5 overrides v3 */
-/* temp working overrides so for easy development v9.7 */
+/* temp working overrides so for easy development v9.8 */
 /* tweaks */
 #main-container {
   padding: 0px
@@ -2009,6 +2009,7 @@ img {
   display: none !important;
   visibility: hidden;
 }
+/* C5 layout tweaks */
 @media only screen and (min-width: 480px) {
   /* 480 =================================================== */
 }
@@ -2066,6 +2067,7 @@ img {
   .go-to-sitemap {
     display: none;
   }
+  /* c5 layout tweaks for above 600 */
 }
 @media only screen and (min-width: 768px) {
   /* 768 =================================================== */
