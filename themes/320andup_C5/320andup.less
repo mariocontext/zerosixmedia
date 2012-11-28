@@ -75,11 +75,13 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 //custom overrides and tweaks for c5 and other basics v6
 @import "custom.less";
 
-/* temp working overrides so for easy development v9.2 */
+/* temp working overrides so for easy development v9.7 */
 
 //removed body div selector from reset.less in favor of just div
 
 /* tweaks */
+ 
+
 
 #main-container {
 	padding:0px
@@ -141,7 +143,7 @@ height: auto;
 		margin-top:.25rem;
 		border:1px solid @bordercolor;
 		padding: 1rem;
-		//display: none;  stops flicker of nav buttons showing - may cause problems with screen readers
+		display: none;  //stops flicker of nav buttons showing - may cause problems with screen readers
 		
 	}
 
@@ -158,7 +160,8 @@ display: none;
 }
 
 #breadcrumbs-threetwenty {
-  margin: 2rem 0px;
+  padding: 32px 0px 32px 16px !important;
+  padding: 2rem 0rem 2rem 1rem !important;
 }
 
 /* main content */
