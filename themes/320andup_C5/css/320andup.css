@@ -1926,7 +1926,7 @@ table thead:first-child tr:first-child td {
   }
 }
 /* basic tweaks and c5 overrides v3 */
-/* temp working overrides so for easy development v9.8 */
+/* temp working overrides so for easy development v9.9 */
 /* tweaks */
 #main-container {
   padding: 0px
@@ -1975,6 +1975,8 @@ img {
   border: 1px solid #e1e1e1;
   padding: 1rem;
   display: none;
+  color: #484848;
+  text-transform: uppercase;
 }
 /* breadcrumbs */
 #page1 #breadcrumbs-threetwenty {
@@ -2074,6 +2076,11 @@ img {
 }
 @media only screen and (min-width: 992px) {
   /* 992 =================================================== */
+  html {
+    background: #484848;
+    background: url(../images/zerosixmedia_background.png) no-repeat center top, #484848;
+    background-position: fixed;
+  }
   #main-header header,
   #general-content,
   #footer-inner,
@@ -2081,6 +2088,16 @@ img {
     width: 960px;
     max-width: 1440px;
     margin: 0 auto;
+  }
+  #main-header header {
+    /*
+  background: #FFF;
+  background: url(../images/zerosixmedia_header.png) no-repeat center 55px, #FFF;
+  */
+  
+  }
+  #footer-main {
+    min-height: 300px;
   }
 }
 @media only screen and (min-width: 1382px) {
