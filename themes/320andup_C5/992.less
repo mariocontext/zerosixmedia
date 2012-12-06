@@ -34,10 +34,16 @@ margin:0 auto;
 
 #main-header {
 
-	background: #484848;
+	background: none;
     background-image: url(../images/zerosixmedia_header.png), url(../images/zerosix_header_rt.png), url(../images/zerosix_header_lft.png);
     background-repeat: no-repeat, repeat-x, repeat-x;
     background-position: center top ,right top, left -40px;
+
+}
+
+.lt-ie9 #main-header {
+
+    background: #FFF;
 
 }
 
@@ -69,7 +75,7 @@ z-index:20;
 #footer-main {
 
     min-height: 152px;
-    background: none;
+    background: #484848;
     background-image: url(../images/zerosixmedia_footer.png), url(../images/zerosix_footer_rt.png), url(../images/zerosix_footer_lft.png);
     background-repeat: no-repeat, repeat-x, repeat-x;
     background-position: center 5px ,right bottom, left bottom;

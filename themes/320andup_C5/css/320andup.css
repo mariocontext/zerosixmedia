@@ -746,7 +746,7 @@ a [class*=" icon-"] {
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
   vertical-align: top;
-  font-size: 1.3333333333333332em;
+  font-size: 1.3333333333333333em;
 }
 .btn [class^="icon-"],
 .btn [class*=" icon-"] {
@@ -778,7 +778,7 @@ li[class*=" icon-"]:before {
 }
 li[class^="icon-"].icon-large:before,
 li[class*=" icon-"].icon-large:before {
-  text-indent: -1.3333333333333332em;
+  text-indent: -1.3333333333333333em;
 }
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */
@@ -1926,7 +1926,7 @@ table thead:first-child tr:first-child td {
   }
 }
 /* basic tweaks and c5 overrides v3 */
-/* temp working overrides so for easy development v10.1 */
+/* temp working overrides so for easy development v10.5 */
 /* tweaks */
 #main-container {
   padding: 0px
@@ -2090,10 +2090,13 @@ img {
     margin: 0 auto;
   }
   #main-header {
-    background: #484848;
+    background: none;
     background-image: url(../images/zerosixmedia_header.png), url(../images/zerosix_header_rt.png), url(../images/zerosix_header_lft.png);
     background-repeat: no-repeat, repeat-x, repeat-x;
     background-position: center top, right top, left -40px;
+  }
+  .lt-ie9 #main-header {
+    background: #FFF;
   }
   #main-header header {
     /*
@@ -2117,7 +2120,7 @@ img {
   }
   #footer-main {
     min-height: 152px;
-    background: none;
+    background: #484848;
     background-image: url(../images/zerosixmedia_footer.png), url(../images/zerosix_footer_rt.png), url(../images/zerosix_footer_lft.png);
     background-repeat: no-repeat, repeat-x, repeat-x;
     background-position: center 5px ,right bottom, left bottom;
