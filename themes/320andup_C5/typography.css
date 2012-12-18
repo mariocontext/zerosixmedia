@@ -6,3 +6,21 @@ not really a typography style sheet. actually a custom typography and style shee
 -- make sure that urls are not surrounded by quotes in this stylesheet
 
 */
+
+.title-font-one {
+
+font-family: 'contax-sans-55-reg-webfont';
+
+}
+
+.title-font-two {
+
+font-family: 'graphein-pro-book-webfont';
+
+}
+
+.title-font-three {
+
+font-family: 'novecentowide-nomral-webfont';
+
+}
